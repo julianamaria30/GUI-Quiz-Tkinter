@@ -1,11 +1,11 @@
 import requests
 
 parameters = {
-    "amount": 10,
+    "amount": 2,
     "type": "multiple"
 }
 
-response = requests.get(url="https://opentdb.com/api.php", params=parameters)
+response = requests.get(url="https://github.com/julianamaria30/GUI-Quiz-Tkinter/blob/master/question.txt", params=parameters)
 question_data = response.json()["results"]
 
 
